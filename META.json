@@ -1,0 +1,85 @@
+{
+   "X_No_Archive" : "Yes",
+   "abstract" : "It's new $module",
+   "author" : [
+      "Sanko Robinson <sanko@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.1.23, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Alien-libui-xmake",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Alien::xmake" : "0",
+            "Module::Build" : "0.4005"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "CPAN::Uploader" : "0",
+            "Code::TidyAll" : "0",
+            "Code::TidyAll::Plugin::ClangFormat" : "0",
+            "Code::TidyAll::Plugin::PodTidy" : "0",
+            "Code::TidyAll::Plugin::YAML" : "0",
+            "Minilla" : "0",
+            "Perl::Tidy" : "0",
+            "Pod::Markdown::Github" : "0",
+            "Pod::Tidy" : "0",
+            "Software::License::Artistic_2_0" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.07",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7",
+            "Version::Next" : "0"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "perl" : "5.038000"
+         },
+         "requires" : {
+            "perl" : "5.026000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test2::V0" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sanko/libui-xmake/issues"
+      },
+      "homepage" : "https://github.com/sanko/libui-xmake",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/sanko/libui-xmake.git",
+         "web" : "https://github.com/sanko/libui-xmake"
+      }
+   },
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 4.16",
+   "x_static_install" : 0
+}

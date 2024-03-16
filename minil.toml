@@ -1,0 +1,17 @@
+name = "Alien-libui-xmake"
+badges = ["github-actions/test.yml", "metacpan"]
+module_maker="ModuleBuild"
+static_install = "auto"
+license = "artistic_2"
+markdown_maker = "Pod::Markdown::Github"
+
+[build]
+build_class = "builder::xmake::libui"
+
+[release]
+hooks=[
+    'tidyall -a'
+]
+
+[Metadata]
+X_No_Archive = 'Yes'
